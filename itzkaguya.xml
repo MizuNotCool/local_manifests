@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="ItzKaguya"
+		fetch="https://github.com/MizuNotCool"
+		revision="main" />
+
+	<remote name="a10s"
+		fetch="https://github.com/Galaxy-MT6765"
+		revision="main" />
+
+	<project path="device/samsung/a10s" name="android_device_samsung_a10s" remote="a10s" />
+	<project path="device/samsung/mt6765-common" name="android_device_samsung_mt6765-common" remote="a10s" />
+	<project path="vendor/samsung" name="proprietary_vendor_samsung" remote="a10s" />
+	
+</manifest>
+  	
