@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="ItzKaguya"
-		fetch="https://github.com/MizuNotCool"
-		revision="main" />
+	<remote name="exynos7885"
+		fetch="https://github.com/exynos7885-dev" />
 
-	<remote name="a10s"
-		fetch="https://github.com/Galaxy-MT6765"
-		revision="main" />
+	<remote name="lineage"
+		fetch="https://github.com/"
+		revision="lineage-18.1" />
 
-	<project path="device/samsung/a10s" name="android_device_samsung_a10s" remote="a10s" />
-	<project path="device/samsung/mt6765-common" name="android_device_samsung_mt6765-common" remote="a10s" />
-	<project path="vendor/samsung" name="proprietary_vendor_samsung" remote="a10s" />
-	
+	<project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="lineage" />
+	<project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="lineage" />
+	<project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="lineage" />
+	<project path="device/samsung/a7y18lte" name="android_device_samsung_a7y18lte" remote="exynos7885" />
+	<project path="device/samsung/exynos7885-common" name="android_device_samsung_exynos7885-common" remote="exynos7885" />
+	<project path="vendor/samsung/exynos7885-common" name="android_vendor_samsung_exynos7885-common" remote="exynos7885" />
+	<project path="kernel/samsung/exynos7885" name="android_kernel_samsung_exynos7885" remote="exynos7885" />
 </manifest>
-  	
