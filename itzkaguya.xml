@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="exynos7885"
-		fetch="https://github.com/exynos7885-dev" />
+		fetch="https://github.com/exynos7885-dev/" />
 
 	<remote name="lineage"
-		fetch="https://github.com/"
+		fetch="https://github.com/LineageOS/"
 		revision="lineage-18.1" />
 
 	<project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="lineage" />
